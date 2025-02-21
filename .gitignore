@@ -1,0 +1,67 @@
+# 忽略编译生成的可执行文件和中间文件
+*.exe
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.pdb
+
+# 忽略调试信息文件
+*.dSYM/
+
+# 忽略构建系统生成的文件
+build/
+out/
+bin/
+obj/
+cmake-build-*/
+
+# 忽略 IDE 或编辑器生成的临时文件
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.log
+
+# 忽略 Visual Studio 相关文件
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vcxproj.*
+*.filters
+*.cache
+*.vs/
+*.vscode/
+*.vsdbg/
+*.vsx/
+*.vsix/
+*.vsixmanifest
+
+# 忽略 CMake 生成的文件
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# 忽略测试和日志文件
+test-results/
+logs/
+
+# 忽略配置文件的备份
+*.config.bak
+*.conf.bak
+*.ini.bak
+
+# 忽略自动生成的文档
+docs/doxygen/html/
+docs/doxygen/latex/
+
+# 忽略特定工具生成的文件
+*.DS_Store
+Thumbs.db
+Desktop.ini
