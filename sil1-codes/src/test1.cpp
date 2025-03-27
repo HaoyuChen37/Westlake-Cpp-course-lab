@@ -61,7 +61,7 @@ char* intToRoman(int num) {
            
         }
         else if ((temp - 10) >= 0){
-            temp -= 1000;
+            temp -= 10;
             size += 1;
             
         }
